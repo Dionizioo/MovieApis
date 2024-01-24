@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Michroma', sans-serif;
+    user-select: none;
+}
+
+body {
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(255, 230, 0) 100%);
+    background-image: url(../img/fundos.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* Cabeçalho */
+header {
+    border-bottom: 4px solid #ccc;
+    padding: 1rem 2rem;
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(../img/fundos.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header h1 {
+    font-size:3rem;
+    font-weight: bold;
+    color: #ffffff;
+    user-select: none;
+    text-shadow: 0 0 10px #000000;
+}
+
+#search-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#search-container input {
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+    width: 400px;
+    font-size: 1rem;
+}
+#search-container button {
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+}
+#search-container button:hover {
+    background-color: #ff3f3f;
+    transition: 0.5s; ;
+}
+
+#list_movie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.item {
+    position: relative; /* Adiciona position relative */
+    width: 400px; /* Aumenta a largura para 400px */
+    height: 500px;
+    border-radius: 5px;
+    background-color: #14131363; /* Adiciona fundo preto */
+    color: #ffffff; /* Adiciona cor de texto branca */
+    display: flex; /* Adiciona display flex */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    flex-direction: column; /* Organiza os itens em uma coluna */
+}
+.item h3{
+    margin: 1rem;
+    text-align: center;
+}
+
+
+.item img {
+    height: 400px; /* Altura fixa desejada */
+    width: 70%; /* Faz com que a largura da imagem seja 100% do container */
+    border-radius: 3px;
+    object-fit: cover; /* Controla como a imagem é redimensionada para preencher a altura especificada */
+}
+
+.not-found {
+    background-image: url('../img/fundo.jpg');
+}
+
+
+
