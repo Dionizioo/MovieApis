@@ -24,7 +24,3 @@
     <li>Lista Interativa: Visualize os resultados de forma interativa na área de exibição.</li>
     <li>Detalhes dos Filmes: Obtenha informações detalhadas, como pôster, título e ano de lançamento.</li>
 </ul>
-<h2 align="center">Próximos Passos</h2>
-<p align="center">Este projeto é um ponto de partida para a exploração de dados de filmes. Possíveis melhorias incluem a adição de filtros avançados, ordenação de resultados e a exibição de mais detalhes sobre cada filme. Aproveite a experiência de explorar o mundo cinematográfico com o Movie API!</p>
-
-Espero que este texto atenda às suas expectativas. Se precisar de mais alguma coisa, estou à disposição!
