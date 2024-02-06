@@ -10,6 +10,11 @@
 <h2 align="center">Como usar</h2>
 <p align="center">No cabeçalho, insira o título do filme desejado na barra de pesquisa. Clique no botão "Pesquisar" para obter uma lista de resultados. Explore os filmes encontrados, visualizando detalhes como o pôster, título e ano de lançamento.</p>
 <hr>
+<hr>
+
+Ficou interessado em conhecer o projeto? Para jogar [clique aqui](https://dionizioo.github.io/MovieApis/)
+
+<hr>
 <h2 align="center">Tecnologias Utilizadas 🚀</h2>
 <div style="display: inline_block">
 	<img align="center" alt="HTML" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
